@@ -103,10 +103,16 @@ function Routine() {
                 onContextMenu={(e) => e.preventDefault()}
               />
               <h4>Descripción</h4>
-              <p>{selectedExercise.descripcionEjercicio}</p>
+              <p style={{ marginTop: "0rem" }}>
+                {selectedExercise.descripcionEjercicio}
+              </p>
               <h4>Repeticiones</h4>
-              <p>{`${selectedExercise.seriesEjercicio} series`}</p>
-              <p>{`${selectedExercise.repeticionesEjercicio} repeticiones`}</p>
+              <p
+                style={{ marginTop: "0rem" }}
+              >{`${selectedExercise.seriesEjercicio} series`}</p>
+              <p
+                style={{ marginTop: "0rem" }}
+              >{`${selectedExercise.repeticionesEjercicio} repeticiones`}</p>
             </>
           ) : (
             <p>Seleccione un ejercicio</p>

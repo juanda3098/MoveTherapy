@@ -125,7 +125,7 @@ function Appointment() {
             <div className="o-appointments-content">
               <div className="o-search-appointments">
                 <h3>Citas</h3>
-                <input className="o-field-search" type="text" />
+                {/* <input className="o-field-search" type="text" /> */}
               </div>
               <div className="o-appointments-field">
                 <FullCalendar

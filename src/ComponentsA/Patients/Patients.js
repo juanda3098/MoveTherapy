@@ -96,7 +96,7 @@ function Patients() {
             <div className="o-patients-content">
               <div className="o-search-patients">
                 <h3>Lista de pacientes</h3>
-                <input className="o-field-search" type="text" />
+                {/* <input className="o-field-search" type="text" /> */}
               </div>
               <div className="o-patients-field">
                 <div className="o-patient-label">

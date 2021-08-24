@@ -76,7 +76,7 @@ function Exercises() {
             <div className="o-routines-content">
               <div className="o-search-routines">
                 <h3>Lista de ejercicios</h3>
-                <input className="o-field-search" type="text" />
+                {/* <input className="o-field-search" type="text" /> */}
               </div>
               <div className="o-routines-field">
                 <div className="o-routine-label">
